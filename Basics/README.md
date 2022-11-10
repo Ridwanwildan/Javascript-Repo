@@ -27,6 +27,36 @@ document.getElementById('test').innerHTML = "Hello world by id";
 console.log("This message in console");
 ```
 
-## Operation
+## Arithmetic
 
 ### Addition
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addition Operator</title>
+  </head>
+  <body>
+    <div id="addition"></div>
+    <div id="substraction"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+
+```bash
+var permen = 3;
+var coklat = 5;
+
+document.getElementById('addition').innerHTML =
+"Hallo Semuanya!<br>"+
+"Saya punya "+permen+" permen dan "+coklat+" coklat.<br>"+
+"Jadi, totalnya saya punya "+(candy+chocolate)+" makanan manis.";
+
+```
+
+### Subs
